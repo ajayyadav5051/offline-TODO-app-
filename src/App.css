@@ -1,0 +1,58 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 50px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.control-panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
+
+.reset-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: darkred;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #f7f7f7;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+  border-color: lightgray;
+}
+
